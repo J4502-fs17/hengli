@@ -39,6 +39,7 @@ body{
 
 #nav a:link, #nav a:visited{
   display: block;
+  float: left;
   color: #ffffff;
   background-color: #98bf21;
   font-weight: bold;
