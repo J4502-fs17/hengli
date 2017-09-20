@@ -3,7 +3,7 @@ p{
   font-family:"Merriweather",Arial, sans-serif;
 }
 
-h1{
+#title{
   font-family:"Merriweather",Helvetica, serif;
   font-size: 2rem;
   background-color: dadada;
@@ -57,7 +57,7 @@ body{
 
 #footer{
   color: black;
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: "Merriweather", Georgia, serif;
   font-size: 0.8em;
   border-top: 1px solid black;
   border:1px 0px 0px 0px solid black;
