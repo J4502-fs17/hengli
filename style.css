@@ -6,6 +6,7 @@ p{
 h1{
   font-family:"Merriweather",Helvetica, serif;
   font-size: 2rem;
+  background-color: dadada;
 }
 
 h2{
@@ -67,15 +68,4 @@ body{
 
 img{
   border-style: none;
-}
-
-#footer{
-  color: black;
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 0.8em;
-  border-top: 1px solid black;
-  border:1px 0px 0px 0px solid black;
-  border-color:black;
-  border-style: dotted;
-  text-align: center;
 }
