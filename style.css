@@ -14,7 +14,7 @@ h2{
 }
 
 body{
-  background-color: #c0c0c0;
+  background-color: #ffffff;
 }
 
 .center{
@@ -23,11 +23,7 @@ body{
 
 #image{
   text-align: center;
-  border: 0px;
-}
-
-#nav{
-  text-align: center;
+  border: 0;
 }
 
 #nav li{
@@ -35,11 +31,11 @@ body{
   margin:0;
   padding:0;
   width: 25%;
+  text-align: center;
 }
 
 #nav a:link, #nav a:visited{
   display: block;
-  float: left;
   color: #ffffff;
   background-color: #98bf21;
   font-weight: bold;
