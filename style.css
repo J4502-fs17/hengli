@@ -1,3 +1,10 @@
+#container{
+  width: 95%
+  background-color: #dadada;
+  margin: 0 auto;
+  text-align: center;
+}
+
 p{
   color: #666666;
   font-family:"Merriweather",Arial, sans-serif;
@@ -15,11 +22,7 @@ h2{
 }
 
 body{
-  background-color: #dadada;
-  text-align: center;
-}
-
-.center{
+  background-color: white;
   text-align: center;
 }
 
