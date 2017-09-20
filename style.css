@@ -7,14 +7,12 @@ h1{
   font-family: Georgia, "Times New Roman", serif;
 }
 
-#container{
-  width: 95%;
-  background-color: #ffffff;
-  margin: 0 auto;
-}
-
 body{
   background-color: #ebe3c3;
+}
+
+.center{
+  text-align: center;
 }
 
 #nav li{
@@ -33,12 +31,11 @@ body{
   text-align: center;
   text-decoration: none;
   padding: 4px;
-
-font-family: Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 #nav a:hover, #nav a:active{
-  background-color: #7a991a;
+  background-color: #ffffff;
 }
 
 #nav{
