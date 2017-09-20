@@ -3,9 +3,14 @@ p{
     font-family:Helvetica, Arial, sans-serif;
 }
 
-h1, h2{
+h1{
   font-family: Georgia, "Times New Roman", serif;
   font-size: 2rem;
+}
+
+h2{
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1rem;
 }
 
 body{
@@ -26,7 +31,6 @@ body{
   margin:0;
   padding:0;
   width: 25%;
-  text-align: center;
 }
 
 #nav a:link, #nav a:visited{
