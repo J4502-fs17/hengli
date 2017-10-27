@@ -1,8 +1,3 @@
-#container{
-  width: 70%
-  margin: 0 auto;
-  text-align: center;
-}
 
 p{
   color: #585858;
@@ -72,4 +67,41 @@ body{
 
 img{
   border-style: none;
+}
+
+
+
+.cards{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  grid-template-areas:
+  "a b c"
+  "d d d"
+}
+
+.cards li {
+    background-color: #f1b82d;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.card1 {
+      grid-area: a;
+    }
+
+.card2 {
+      grid-area: b;
+    }
+
+.card3 {
+        grid-area: c;
+}
+
+.card4{
+  grid-area: d;
 }
