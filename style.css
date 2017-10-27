@@ -1,19 +1,19 @@
 
 p{
   color: #585858;
-  font-family:"Merriweather Sans",Arial, sans-serif;
+  font-family:Arial, sans-serif;
 }
 
 #title{
-  font-family:"Merriweather",Georgia, serif;
-  font-size: 2rem;
+  font-family:Georgia, serif;
+  font-size: 40px;
   background-color: #b2b2b2;
   color: #585858;
 }
 
 h2{
-  font-family:"Merriweather" "Times New Roman", serif;
-  font-size: 1rem;
+  font-family:"Times New Roman", serif;
+  font-size: 30px;
   color: #585858;
 }
 
@@ -59,19 +59,31 @@ body{
   font-family: "Merriweather", Georgia, serif;
   font-size: 0.8em;
   border-top: 1px solid black;
-  border:1px 0px 0px 0px solid black;
   border-color:black;
   border-style: none;
   background-color: #b2b2b2;
 }
 
-img{
-  border-style: none;
+
+
+.cards li {
+    background-color: #f1b82d;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px 5px;
 }
 
-
-
 .cards{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img{
+  border-style: none;}
+
+@media (min-width:600px){
+.content{
   margin: 0;
   padding: 0;
   list-style: none;
@@ -79,15 +91,26 @@ img{
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
   grid-template-areas:
-  "a b c"
-  "d d d"
+  "f e"
 }
 
-.cards li {
-    background-color: #f1b82d;
-    border: 1px solid #ccc;
-    padding: 10px;
-    border-radius: 5px;
+.card5{
+  grid-area:e;
+}
+
+img{
+  border-style: none;
+  grid-area: f;
+
+}
+
+.cards{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  grid-template-areas:
+  "a b c"
+  "d d d"
 }
 
 .card1 {
@@ -104,4 +127,6 @@ img{
 
 .card4{
   grid-area: d;
+}
+
 }
