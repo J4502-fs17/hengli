@@ -12,7 +12,7 @@ p{
 }
 
 h2{
-  font-family:"Times New Roman", serif;
+  font-family:Times, serif;
   font-size: 30px;
   color: #585858;
 }
@@ -56,15 +56,13 @@ body{
 
 #footer{
   color: #585858;
-  font-family: "Merriweather", Georgia, serif;
+  font-family: Georgia, serif;
   font-size: 0.8em;
   border-top: 1px solid black;
   border-color:black;
   border-style: none;
   background-color: #b2b2b2;
 }
-
-
 
 .cards li {
     background-color: #f1b82d;
@@ -80,15 +78,18 @@ body{
 }
 
 img{
-  border-style: none;}
+  border-style: none;
+  width:30%;
+}
 
-@media (min-width:600px){
+
+@media screen and (min-width:600px){
 .content{
-  margin: 0;
-  padding: 0;
+  margin: 10px;
+  padding: 10px;
   list-style: none;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
   grid-gap: 20px;
   grid-template-areas:
   "f e"
@@ -98,31 +99,35 @@ img{
   grid-area:e;
 }
 
+.card5 p{
+  width: 90%;
+}
+
 img{
   border-style: none;
   grid-area: f;
-
+  width: 300px;
 }
 
 .cards{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas:
   "a b c"
   "d d d"
 }
 
 .card1 {
-      grid-area: a;
-    }
+  grid-area: a;
+}
 
 .card2 {
-      grid-area: b;
-    }
+  grid-area: b;
+}
 
 .card3 {
-        grid-area: c;
+  grid-area: c;
 }
 
 .card4{
@@ -130,3 +135,54 @@ img{
 }
 
 }
+
+@media screen and (min-width:800px){
+  .content{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    grid-template-columns: 1fr;
+    display: grid;
+    grid-template-columns:
+      "f e";
+    grid-gap: 20px;
+
+  }
+
+  .card5{
+    grid-area:e;
+    width: 80%;
+  }
+
+
+  img{
+    border-style: none;
+    grid-area: f;
+    width: 350px;
+  }
+
+  .cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    grid-template-areas:
+    "a b c d"
+  }
+
+  .card1 {
+        grid-area: a;
+      }
+
+  .card2 {
+        grid-area: b;
+      }
+
+  .card3 {
+          grid-area: c;
+  }
+
+  .card4{
+    grid-area: d;
+  }
+
+  }
