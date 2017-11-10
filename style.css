@@ -27,16 +27,22 @@ body{
   text-align: center;
   border: 0;
 }
-
-#nav li{
+nav li{
   list-style-type: none;
   margin:0;
   padding:0;
   width: 100%;
   text-align: center;
+  display: block;
 }
 
-#nav a:link, #nav a:visited{
+.menu-trigger{
+  order: 1;
+  display: block;
+  color:black;
+}
+
+nav li a:link, nav li a:visited{
   display: block;
   color: #585858;
   background-color: #b2b2b2;
@@ -47,12 +53,14 @@ body{
   font-family: Helvetica, Arial, sans-serif;
 }
 
-#nav a:hover, #nav a:active{
+nav a:hover, nav a:active{
   background-color: #8a8a8a;
 }
 
-#nav{
+.cards {
   padding: 0;
+  display: none;
+  flex-direction: column;
 }
 
 #footer{
@@ -94,6 +102,10 @@ img{
   grid-gap: 20px;
   grid-template-areas:
   "f e"
+}
+
+.menu-trigger{
+  display: none;
 }
 
 .card5{
