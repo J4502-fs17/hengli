@@ -57,6 +57,21 @@ nav li{
     position:absolute;
 }
 
+.streetview {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.streetview iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
 nav li a:link, nav li a:visited{
   display: block;
   color: #585858;
